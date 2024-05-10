@@ -63,15 +63,14 @@ export const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >g 
         {/* img added */}
+        <div className="flex justify-center lg:justify-start">
         <Image
           src="/myphoto.png"
           alt="work icons"
-          height={400}
-          width={350}
-          style={{width:'100%',height:'auto',maxWidth:'500px'}}
+          className="max-w-full h-auto">
           draggable={false}
-          className="select-none"
-        />
+        </Image>
+        </div>
       </motion.div>
     </motion.div>
   );
