@@ -259,11 +259,11 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Quiz App",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'Embark on a journey through my professional evolution with the "A simple quiz app made using html,css and javascript.Fully customizable and easy to implement.can support many question and  can show the no of correct and incorrest answer',
+    image: "/projects/Quiz.png",
+    link: "https://javascript-dusky-three.vercel.app/",
   },
   {
     title: "Interactive Cards Portfolio",
