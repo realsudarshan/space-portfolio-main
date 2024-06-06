@@ -262,22 +262,22 @@ export const PROJECTS = [
     title: "Quiz App",
     description:
       'Embark on a journey through my professional evolution with the "A simple quiz app made using html,css and javascript.Fully customizable and easy to implement.can support many question and  can show the no of correct and incorrest answer',
-    image: "/projects/Quiz.png",
+    image: "/projects/Quiz.jpg",
     link: "https://javascript-dusky-three.vercel.app/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Token based authentication",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      'A complete full stack app with integration of mongodb and token based authentication web app.user can sign up and verify it through mail.password encrypted with bcryptjs and fully cookie based login and logout system.',
+    image: "/projects/Auth.jpg",
+    link: "https://nextauthsd.vercel.app/login",
   },
   {
-    title: "Space Themed Website",
+    title: "Todo app",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      'A simple todo app created in nextjs.User can add task and discription and delete them manually when needed.',
+    image: "/projects/Todo.jpg",
+    link: "https://todo-bice-five-80.vercel.app/",
   },
 ] as const;
 
